@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "SharpieHolder",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "e16fcff4-e4a9-4b7d-9a96-7ff7a587718e",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
