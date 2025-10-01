@@ -1252,8 +1252,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.7229617304492512,
-                    "y": 0.17827868852459017,
+                    "x": 0.7420965058236273,
+                    "y": 0.15573770491803277,
                     "uniqueID": "3e301d5b-320a-496d-9cf6-3c9005c74335",
                     "ioValues": [
                         {
@@ -1268,14 +1268,14 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "PH",
+                            "ioValue": "ShTop",
                             "currentEquation": null
                         }
                     ],
                     "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
-                    "partName": "PH"
+                    "partName": "ShTop"
                 },
                 {
                     "atomType": "Difference",
@@ -2407,14 +2407,14 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "PH",
+                            "ioValue": "Slide",
                             "currentEquation": null
                         }
                     ],
                     "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
-                    "partName": "PH"
+                    "partName": "Slide"
                 },
                 {
                     "atomType": "Move",
