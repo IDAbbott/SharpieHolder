@@ -157,7 +157,7 @@
                                 {
                                     "name": "Shape 5",
                                     "ioValue": {
-                                        "geometry": "move-c3018c1f46833be5214a1e4e89c716fe2af3302d58e14ffc4c1dd602e74c16d9",
+                                        "geometry": "move-ad40ea8c393adc3c669b9aa40a4faa9a27af69061b81c38c496cab27196c8417",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -211,7 +211,7 @@
                                 {
                                     "name": "Shape 9",
                                     "ioValue": {
-                                        "geometry": "move-ad2cd494a9efe3bf78372b482ac34f30b61baecf2141220f06776a30547e8c80",
+                                        "geometry": "move-9ec8890ed6fa9deb9bfe8f3521e483c2cf800312be3351a22378ef8966fc8120",
                                         "dimension": "3D",
                                         "plane": {
                                             "origin": [
@@ -347,8 +347,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.47088186356073214,
-                            "y": 0.4139344262295082,
+                            "x": 0.47171381031613974,
+                            "y": 0.41598360655737704,
                             "uniqueID": "22a9c70c-964b-4cb6-bf52-43afd0200a75",
                             "ioValues": [
                                 {
@@ -363,8 +363,8 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -4,
-                                    "currentEquation": null
+                                    "ioValue": -14,
+                                    "currentEquation": "-14"
                                 }
                             ]
                         },
@@ -485,8 +485,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4226289517470882,
-                            "y": 0.26024590163934425,
+                            "x": 0.4259567387687188,
+                            "y": 0.26229508196721313,
                             "uniqueID": "e5fa74e9-f1c9-4934-b1a7-ffd5a1ef4ebe",
                             "ioValues": [
                                 {
@@ -501,8 +501,8 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -12,
-                                    "currentEquation": null
+                                    "ioValue": -22,
+                                    "currentEquation": "-22"
                                 }
                             ]
                         },
@@ -823,8 +823,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MainBody",
-                    "x": 0.12311320754716983,
-                    "y": 0.28316831683168314,
+                    "x": 0.11813643926788686,
+                    "y": 0.27049180327868855,
                     "uniqueID": "92d4f048-d47d-40de-80e7-d0384a692795",
                     "ioValues": [],
                     "topLevel": false,
@@ -865,16 +865,16 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 20,
-                                    "currentEquation": null
+                                    "ioValue": 30,
+                                    "currentEquation": "30"
                                 }
                             ]
                         },
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.5839622641509434,
-                            "y": 0.44752475247524753,
+                            "x": 0.5840266222961731,
+                            "y": 0.4426229508196722,
                             "uniqueID": "190e766b-7c07-4edf-8a73-7ec8313c49bc",
                             "ioValues": [
                                 {
@@ -907,7 +907,7 @@
                                 {
                                     "name": "Shape 2",
                                     "ioValue": {
-                                        "geometry": "extrude-9ecd2b3421836657704a29c919578971ad2a672afaf0dfd26aff284725a3206e",
+                                        "geometry": "extrude-5abed5dd67670506e27846c81a4a7eae1f9d4ff95226140683c7e509b7aa315d",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -934,7 +934,7 @@
                                 {
                                     "name": "Shape 3",
                                     "ioValue": {
-                                        "geometry": "move-ee42c98785fb8c7a1b45fbefd106870fe638a193995d73220a883e7ef20dbe8f",
+                                        "geometry": "move-f18c07a68d98cc20f0f6129d9bd7a4b40d7331ce6e68f86bd399ad32abdb1217",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -1027,12 +1027,12 @@
                                 {
                                     "name": "yDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0,
-                                    "currentEquation": null
+                                    "ioValue": -10,
+                                    "currentEquation": "-10"
                                 }
                             ]
                         },
