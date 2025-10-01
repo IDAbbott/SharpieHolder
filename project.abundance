@@ -79,8 +79,8 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 30,
-                            "currentEquation": "30"
+                            "ioValue": 31,
+                            "currentEquation": "31"
                         }
                     ]
                 },
@@ -952,14 +952,14 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.46619841966637404,
-                                    "y": 0.371900826446281,
+                                    "x": 0.4667221297836939,
+                                    "y": 0.36680327868852464,
                                     "uniqueID": "fbaab5b1-12ee-43f5-9104-d698ff17ea8b",
                                     "ioValues": [
                                         {
                                             "name": "height",
                                             "ioValue": 11,
-                                            "currentEquation": null
+                                            "currentEquation": "11"
                                         }
                                     ]
                                 },
@@ -2425,13 +2425,13 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -20,
-                            "currentEquation": "-20"
+                            "ioValue": 71,
+                            "currentEquation": "71"
                         },
                         {
                             "name": "yDist",
                             "ioValue": 0,
-                            "currentEquation": null
+                            "currentEquation": "0"
                         },
                         {
                             "name": "zDist",
@@ -2452,7 +2452,7 @@
                             "ioValue": {
                                 "geometry": [
                                     {
-                                        "geometry": "move-8601ceb2175c468b28695e5476280baba3178ae076988a0d47fa610f11b54741",
+                                        "geometry": "move-78ebe7bcca5e90ac1ee787752729305c14f6f6574c2cdfb5396db538c7c533f1",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -2476,7 +2476,7 @@
                                         "bom": []
                                     },
                                     {
-                                        "geometry": "move-4bb77ae3f65f013880749d0913cfb816b3e9f2c1716783b8770ae5dba7c35f17",
+                                        "geometry": "move-e33c77b10554afe2742b0c78cf24f2bfbd615da9a08fb379faf1928dbafaa5c4",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -2525,7 +2525,7 @@
                         {
                             "name": "Shape 2",
                             "ioValue": {
-                                "geometry": "move-1882796804a511ac2d29633e5af52864fb02518ac5602383874034898b380222",
+                                "geometry": "move-f78d9050eb461405a1c3947efd1616c994ed34c86660a0f6246a04caff94efb5",
                                 "tags": [],
                                 "bom": [],
                                 "plane": {
