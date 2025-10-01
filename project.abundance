@@ -16,10 +16,38 @@
             "ioValues": []
         },
         {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.32362728785357736,
+            "y": 0.46516393442622955,
+            "uniqueID": "7178a5b4-356e-4ede-bfcf-09db960047a0",
+            "ioValues": [
+                {
+                    "name": "File Type",
+                    "ioValue": "STL",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "SharpieHolder",
+                    "currentEquation": null
+                }
+            ],
+            "type": "STL",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "SharpieHolder"
+        },
+        {
             "atomType": "Molecule",
             "name": "PH",
-            "x": 0.16722129783693845,
-            "y": 0.29098360655737704,
+            "x": 0.16805324459234608,
+            "y": 0.2889344262295082,
             "uniqueID": "dd844201-6f1d-4224-aae5-338b5df01546",
             "ioValues": [],
             "topLevel": false,
@@ -663,7 +691,7 @@
                                 {
                                     "name": "height",
                                     "ioValue": 25,
-                                    "currentEquation": "25"
+                                    "currentEquation": null
                                 }
                             ]
                         },
@@ -883,7 +911,7 @@
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "cut-23143254822ab7745e187167632e3043b819d71fb6a631c07f04d4861eaaa6b8",
+                                        "geometry": "cut-e9b7576d9ce545495782565fd381de1bf60444c216abe0da783b2b1a6ce23390",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -1276,6 +1304,62 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.16555740432612312,
+                    "y": 0.5532786885245902,
+                    "uniqueID": "4234e1ba-4db3-4a20-92ad-24b7514e119d",
+                    "ioValues": [
+                        {
+                            "name": "File Type",
+                            "ioValue": "STEP",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "PH",
+                            "currentEquation": null
+                        }
+                    ],
+                    "type": "STEP",
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "partName": "PH"
+                },
+                {
+                    "atomType": "Export",
+                    "name": "Export",
+                    "x": 0.2678868552412646,
+                    "y": 0.13114754098360656,
+                    "uniqueID": "cbd1b4f4-357f-4d13-a338-fd79f01e41fb",
+                    "ioValues": [
+                        {
+                            "name": "File Type",
+                            "ioValue": "STEP",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Resolution (dpi)",
+                            "ioValue": 96,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Part Name",
+                            "ioValue": "PH",
+                            "currentEquation": null
+                        }
+                    ],
+                    "type": "STEP",
+                    "resolution": 96,
+                    "importIndex": 0,
+                    "partName": "PH"
                 }
             ],
             "allConnectors": [
@@ -1288,7 +1372,7 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": "e26aa5e0-c9e5-4f22-a31e-39a85d04ed29",
+                    "ap1ID": "9ee65149-ab0d-44da-8c48-7d2dd881096c",
                     "ap2ID": "9a69c0f3-a86a-4fcc-a503-3c08e38afbd1"
                 },
                 {
@@ -1305,41 +1389,25 @@
                 },
                 {
                     "ap1Name": "geometry or number",
+                    "ap2Name": "geometry",
+                    "ap1ID": "3ec29a20-366b-48fa-959e-100db0415e58",
+                    "ap2ID": "4234e1ba-4db3-4a20-92ad-24b7514e119d"
+                },
+                {
+                    "ap1Name": "geometry or number",
                     "ap2Name": "geometry1",
                     "ap1ID": "92d4f048-d47d-40de-80e7-d0384a692795",
                     "ap2ID": "9ee65149-ab0d-44da-8c48-7d2dd881096c"
+                },
+                {
+                    "ap1Name": "geometry or number",
+                    "ap2Name": "geometry",
+                    "ap1ID": "92d4f048-d47d-40de-80e7-d0384a692795",
+                    "ap2ID": "cbd1b4f4-357f-4d13-a338-fd79f01e41fb"
                 }
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.32362728785357736,
-            "y": 0.46516393442622955,
-            "uniqueID": "7178a5b4-356e-4ede-bfcf-09db960047a0",
-            "ioValues": [
-                {
-                    "name": "File Type",
-                    "ioValue": "STL",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "SharpieHolder",
-                    "currentEquation": null
-                }
-            ],
-            "type": "STL",
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "SharpieHolder"
         }
     ],
     "allConnectors": [
