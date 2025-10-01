@@ -798,8 +798,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MainBody",
-                    "x": 0.10898502495840266,
-                    "y": 0.2540983606557377,
+                    "x": 0.10981697171381032,
+                    "y": 0.2377049180327869,
                     "uniqueID": "92d4f048-d47d-40de-80e7-d0384a692795",
                     "ioValues": [],
                     "topLevel": false,
@@ -935,8 +935,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "UpperBody",
-                            "x": 0.2637271214642263,
-                            "y": 0.24590163934426232,
+                            "x": 0.2628951747088186,
+                            "y": 0.27049180327868855,
                             "uniqueID": "2515457b-51ea-4273-bfdc-a86ea6ddaa63",
                             "ioValues": [],
                             "topLevel": false,
@@ -1288,8 +1288,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Slide",
-                    "x": 0.10316139767054909,
-                    "y": 0.6004098360655739,
+                    "x": 0.09317803660565724,
+                    "y": 0.5778688524590164,
                     "uniqueID": "20630ac6-7ca1-4f93-8d92-3c786abae6ed",
                     "ioValues": [],
                     "topLevel": false,
@@ -1358,8 +1358,8 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 10,
-                                    "currentEquation": null
+                                    "ioValue": 6,
+                                    "currentEquation": "6"
                                 }
                             ]
                         },
@@ -1433,7 +1433,7 @@
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "cut-2d16e7665dc3696ba8cc2ef25f6da939695fc4429d2e49769ad2c69fa42e99cd",
+                                        "geometry": "cut-db71e53383ad6aee5a780a7436e7a1d239ea4ed1a5fd984b5bf9b6f8b29ce75e",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -2525,7 +2525,7 @@
                         {
                             "name": "Shape 2",
                             "ioValue": {
-                                "geometry": "move-5368e9cbf03b9f931972f1826f2f9bc3e54676daf833d7d43901f2c38d0c56fe",
+                                "geometry": "move-1882796804a511ac2d29633e5af52864fb02518ac5602383874034898b380222",
                                 "tags": [],
                                 "bom": [],
                                 "plane": {
