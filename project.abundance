@@ -110,9 +110,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "NegSpace",
-                    "x": 0.08153078202995008,
-                    "y": 0.5799180327868853,
+                    "name": "NegSpaceMain",
+                    "x": 0.10066555740432612,
+                    "y": 0.42213114754098363,
                     "uniqueID": "3ec29a20-366b-48fa-959e-100db0415e58",
                     "ioValues": [],
                     "topLevel": false,
@@ -387,8 +387,8 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 15,
-                                    "currentEquation": null
+                                    "ioValue": 14.5,
+                                    "currentEquation": "14.5"
                                 }
                             ]
                         },
@@ -573,7 +573,7 @@
                             "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.6738768718801996,
-                            "y": 0.5286885245901639,
+                            "y": 0.5327868852459017,
                             "uniqueID": "556b72a4-287a-42d9-a8ef-6fbe619ee1cd",
                             "ioValues": [
                                 {
@@ -633,7 +633,7 @@
                                 {
                                     "name": "Shape 3",
                                     "ioValue": {
-                                        "geometry": "move-cff76e4e5e9d383d237b3e6a40782ccf6d1a878089cbdba68c995d6828edc299",
+                                        "geometry": "move-7bc440deaf8ee576f0152b4f3b09505eb8a63019dad7507e453a407d2f9df5eb",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -1300,8 +1300,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.670549084858569,
-                    "y": 0.5819672131147541,
+                    "x": 0.6763727121464227,
+                    "y": 0.5860655737704918,
                     "uniqueID": "3e301d5b-320a-496d-9cf6-3c9005c74335",
                     "ioValues": [
                         {
@@ -1334,37 +1334,26 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 0.08485856905158069,
-                    "y": 0.3975409836065574,
-                    "uniqueID": "7b32ffc4-d4bd-48b6-862c-894e018624d8",
-                    "ioValues": [
+                    "atomType": "Molecule",
+                    "name": "Slide",
+                    "x": 0.10149750415973377,
+                    "y": 0.6086065573770492,
+                    "uniqueID": "20630ac6-7ca1-4f93-8d92-3c786abae6ed",
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
                         {
-                            "name": "x length",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10,
-                            "currentEquation": null
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "dddd7cfe-850b-49ec-a204-a6a3a1b31a67",
+                            "ioValues": []
                         }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.17720465890183026,
-                    "y": 0.4057377049180328,
-                    "uniqueID": "d6bbec80-0873-4c67-b8d6-c453b59934d3",
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        }
-                    ]
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -1388,6 +1377,12 @@
                 },
                 {
                     "ap1Name": "geometry or number",
+                    "ap2Name": "geometry2",
+                    "ap1ID": "3ec29a20-366b-48fa-959e-100db0415e58",
+                    "ap2ID": "67198789-b95f-4448-ba1e-a0cf1637051d"
+                },
+                {
+                    "ap1Name": "geometry or number",
                     "ap2Name": "geometry1",
                     "ap1ID": "92d4f048-d47d-40de-80e7-d0384a692795",
                     "ap2ID": "67198789-b95f-4448-ba1e-a0cf1637051d"
@@ -1397,14 +1392,7 @@
                     "ap2Name": "geometry",
                     "ap1ID": "67198789-b95f-4448-ba1e-a0cf1637051d",
                     "ap2ID": "2d9ccc93-3008-4134-a04f-619ae1368b42"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": "7b32ffc4-d4bd-48b6-862c-894e018624d8",
-                    "ap2ID": "d6bbec80-0873-4c67-b8d6-c453b59934d3"
-                },
-                null
+                }
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
