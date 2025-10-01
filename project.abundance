@@ -150,14 +150,14 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.7122641509433962,
-                            "y": 0.44950495049504946,
+                            "x": 0.7096505823627288,
+                            "y": 0.4180327868852459,
                             "uniqueID": "db492296-9b07-43ec-b42e-23a94354f5b8",
                             "ioValues": [
                                 {
                                     "name": "Shape 5",
                                     "ioValue": {
-                                        "geometry": "move-36b932d7afe4e8a8f3dc250308ac7b2c37f539d2ddbcfe5aeeb587f25968bbad",
+                                        "geometry": "move-c3018c1f46833be5214a1e4e89c716fe2af3302d58e14ffc4c1dd602e74c16d9",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -184,7 +184,7 @@
                                 {
                                     "name": "Shape 8",
                                     "ioValue": {
-                                        "geometry": "move-96af4281714e7183bf71307635a7b726dc5b4621ec2a5752459c2b92772ce9cd",
+                                        "geometry": "move-c3e92c8478d66fde11820b1b8fb0fe25d3f54a0a6199f8806e6a459b51fc00fd",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -211,7 +211,7 @@
                                 {
                                     "name": "Shape 9",
                                     "ioValue": {
-                                        "geometry": "move-a0c6c554b8740e68eda7c90fa8f62c94e58fb1488f52863f726babe82d12739c",
+                                        "geometry": "move-ad2cd494a9efe3bf78372b482ac34f30b61baecf2141220f06776a30547e8c80",
                                         "dimension": "3D",
                                         "plane": {
                                             "origin": [
@@ -265,7 +265,7 @@
                                 {
                                     "name": "Shape 13",
                                     "ioValue": {
-                                        "geometry": "move-4af6a053b99d779ccc152bb885ae3bb986d388c77a6b39979386e647c8614101",
+                                        "geometry": "move-d0ba3983041388d876af15ce27385a195ab2717d766ee6495c11f3a0c599b00a",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -347,19 +347,19 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4669811320754717,
-                            "y": 0.4178217821782178,
+                            "x": 0.47088186356073214,
+                            "y": 0.4139344262295082,
                             "uniqueID": "22a9c70c-964b-4cb6-bf52-43afd0200a75",
                             "ioValues": [
                                 {
                                     "name": "xDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 32,
-                                    "currentEquation": null
+                                    "ioValue": 36,
+                                    "currentEquation": "36"
                                 },
                                 {
                                     "name": "zDist",
@@ -390,19 +390,19 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5957446808510638,
-                            "y": 0.20081967213114754,
+                            "x": 0.5856905158069884,
+                            "y": 0.19467213114754098,
                             "uniqueID": "f57d8262-01ed-4f92-8ff1-87daf010fa85",
                             "ioValues": [
                                 {
                                     "name": "xDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 10,
-                                    "currentEquation": null
+                                    "ioValue": 16.7,
+                                    "currentEquation": "16.7"
                                 },
                                 {
                                     "name": "zDist",
@@ -485,19 +485,19 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4231132075471698,
-                            "y": 0.2732673267326733,
+                            "x": 0.4226289517470882,
+                            "y": 0.26024590163934425,
                             "uniqueID": "e5fa74e9-f1c9-4934-b1a7-ffd5a1ef4ebe",
                             "ioValues": [
                                 {
                                     "name": "xDist",
                                     "ioValue": 0,
-                                    "currentEquation": null
+                                    "currentEquation": "0"
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 8.6,
-                                    "currentEquation": null
+                                    "ioValue": 15,
+                                    "currentEquation": "15"
                                 },
                                 {
                                     "name": "zDist",
@@ -667,8 +667,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.305324459234609,
-                            "y": 0.5799180327868853,
+                            "x": 0.30615640599001664,
+                            "y": 0.5737704918032787,
                             "uniqueID": "218adfea-28c0-4695-b427-493874060cdc",
                             "ioValues": [
                                 {
@@ -683,8 +683,8 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 0,
-                                    "currentEquation": null
+                                    "ioValue": 10,
+                                    "currentEquation": "10"
                                 }
                             ]
                         }
