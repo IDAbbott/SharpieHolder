@@ -880,7 +880,7 @@
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "cut-469a031e8f6f2ffc5608623d4b73134694dab913db8f71240cbbb4db15663549",
+                                        "geometry": "cut-a6eff6153de79f237951fc73d7001c6de0a1f20ab96a4967cb9c0867ae73150f",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -1039,8 +1039,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "UpperBody",
-                            "x": 0.264622641509434,
-                            "y": 0.25544554455445545,
+                            "x": 0.2637271214642263,
+                            "y": 0.24590163934426232,
                             "uniqueID": "2515457b-51ea-4273-bfdc-a86ea6ddaa63",
                             "ioValues": [],
                             "topLevel": false,
@@ -1244,21 +1244,16 @@
                                     "closedSelection": 0
                                 },
                                 {
-                                    "atomType": "RegularPolygon",
-                                    "name": "RegularPolygon",
-                                    "x": 0.10316139767054909,
-                                    "y": 0.31557377049180324,
-                                    "uniqueID": "bcb7cce2-0ab1-4089-82aa-308f9b70e0eb",
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.1480865224625624,
+                                    "y": 0.3442622950819672,
+                                    "uniqueID": "04843cde-5b9e-49cf-8ac0-7da8317430ab",
                                     "ioValues": [
                                         {
-                                            "name": "number of sides",
-                                            "ioValue": 6,
-                                            "currentEquation": null
-                                        },
-                                        {
                                             "name": "diameter",
-                                            "ioValue": 19,
-                                            "currentEquation": "19"
+                                            "ioValue": 30,
+                                            "currentEquation": "30"
                                         }
                                     ]
                                 }
@@ -1315,7 +1310,7 @@
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
-                                    "ap1ID": "bcb7cce2-0ab1-4089-82aa-308f9b70e0eb",
+                                    "ap1ID": "04843cde-5b9e-49cf-8ac0-7da8317430ab",
                                     "ap2ID": "f29787b1-f274-488e-8138-8bdb73e301e4"
                                 }
                             ],
