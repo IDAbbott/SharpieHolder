@@ -137,14 +137,6 @@
                     "partName": "ShTop"
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.3178036605657238,
-                    "y": 0.3094262295081967,
-                    "uniqueID": "67198789-b95f-4448-ba1e-a0cf1637051d",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Export",
                     "name": "Export",
                     "x": 0.1930116472545757,
@@ -163,14 +155,14 @@
                         },
                         {
                             "name": "Part Name",
-                            "ioValue": "Slide",
+                            "ioValue": "ShSlide",
                             "currentEquation": null
                         }
                     ],
                     "type": "STEP",
                     "resolution": 96,
                     "importIndex": 0,
-                    "partName": "Slide"
+                    "partName": "ShSlide"
                 },
                 {
                     "atomType": "Move",
@@ -205,7 +197,78 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": null
+                            "ioValue": {
+                                "geometry": [
+                                    {
+                                        "geometry": "move-43a4bb6f70376134437c26f486bc8dc78fa2a1b1dcfc6f4fa4a6d4cd77f5d02b",
+                                        "dimension": "3D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                5
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    },
+                                    {
+                                        "geometry": "move-e23aedc2c4905afffc22818708d54ad6714ab048d416643ecf4660f3973f13f4",
+                                        "dimension": "3D",
+                                        "tags": [],
+                                        "plane": {
+                                            "origin": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xDir": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "normal": [
+                                                0,
+                                                0,
+                                                1
+                                            ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                    }
+                                ],
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                            }
                         },
                         {
                             "name": "Shape 2",
@@ -1235,7 +1298,7 @@
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "cut-24cb7afa8955486d7c5296f0f8249c96108b317672ea28deffb0c1fa3a9fba0c",
+                                        "geometry": "cut-f60990a1972f03de95969c944dd7b4ceaf4d2d7f0995bf104e6ad67c6f887f82",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -1315,8 +1378,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "UpperBody",
-                            "x": 0.26039933444259566,
-                            "y": 0.24385245901639346,
+                            "x": 0.2562396006655574,
+                            "y": 0.2377049180327869,
                             "uniqueID": "2515457b-51ea-4273-bfdc-a86ea6ddaa63",
                             "ioValues": [],
                             "topLevel": false,
@@ -1522,14 +1585,14 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.1497504159733777,
-                                    "y": 0.3360655737704918,
+                                    "x": 0.15224625623960067,
+                                    "y": 0.3442622950819672,
                                     "uniqueID": "04843cde-5b9e-49cf-8ac0-7da8317430ab",
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 32,
-                                            "currentEquation": "32"
+                                            "ioValue": 31.8,
+                                            "currentEquation": "31.8"
                                         }
                                     ]
                                 }
@@ -2761,6 +2824,14 @@
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": []
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.27371048252911817,
+                    "y": 0.2807377049180328,
+                    "uniqueID": "edcc9859-02d8-4bbd-acce-12127281cd2b",
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2784,12 +2855,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": "67198789-b95f-4448-ba1e-a0cf1637051d",
-                    "ap2ID": "2d9ccc93-3008-4134-a04f-619ae1368b42"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
                     "ap1ID": "1e263928-e03f-4a3a-a07a-92f1d9cd6ed5",
                     "ap2ID": "155eefb6-76f3-44da-955d-89335f103855"
@@ -2810,13 +2875,13 @@
                     "ap1Name": "geometry or number",
                     "ap2Name": "geometry2",
                     "ap1ID": "3ec29a20-366b-48fa-959e-100db0415e58",
-                    "ap2ID": "67198789-b95f-4448-ba1e-a0cf1637051d"
+                    "ap2ID": "edcc9859-02d8-4bbd-acce-12127281cd2b"
                 },
                 {
                     "ap1Name": "geometry or number",
                     "ap2Name": "geometry1",
                     "ap1ID": "92d4f048-d47d-40de-80e7-d0384a692795",
-                    "ap2ID": "67198789-b95f-4448-ba1e-a0cf1637051d"
+                    "ap2ID": "edcc9859-02d8-4bbd-acce-12127281cd2b"
                 },
                 {
                     "ap1Name": "geometry or number",
@@ -2829,6 +2894,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": "20630ac6-7ca1-4f93-8d92-3c786abae6ed",
                     "ap2ID": "1e263928-e03f-4a3a-a07a-92f1d9cd6ed5"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "edcc9859-02d8-4bbd-acce-12127281cd2b",
+                    "ap2ID": "2d9ccc93-3008-4134-a04f-619ae1368b42"
                 }
             ],
             "fileTypeVersion": 1,
