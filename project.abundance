@@ -63,40 +63,40 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.40070921985815605,
-                    "y": 0.49385245901639346,
+                    "x": 0.4043261231281198,
+                    "y": 0.32377049180327866,
                     "uniqueID": "9ee65149-ab0d-44da-8c48-7d2dd881096c",
                     "ioValues": []
                 },
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6372712146422629,
-                    "y": 0.5102459016393442,
+                    "x": 0.6697171381031614,
+                    "y": 0.33811475409836067,
                     "uniqueID": "e26aa5e0-c9e5-4f22-a31e-39a85d04ed29",
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0,
-                            "currentEquation": null
+                            "ioValue": 30,
+                            "currentEquation": "30"
                         },
                         {
                             "name": "yDist",
                             "ioValue": 0,
-                            "currentEquation": null
+                            "currentEquation": "0"
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 15,
-                            "currentEquation": null
+                            "ioValue": 45,
+                            "currentEquation": "45"
                         }
                     ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "NegSpace",
-                    "x": 0.11813643926788686,
-                    "y": 0.5573770491803278,
+                    "x": 0.11314475873544094,
+                    "y": 0.430327868852459,
                     "uniqueID": "3ec29a20-366b-48fa-959e-100db0415e58",
                     "ioValues": [],
                     "topLevel": false,
@@ -194,8 +194,8 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 20,
-                                    "currentEquation": "20"
+                                    "ioValue": 10,
+                                    "currentEquation": "10"
                                 }
                             ]
                         },
@@ -237,8 +237,8 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 38,
-                                    "currentEquation": "38"
+                                    "ioValue": 28,
+                                    "currentEquation": "28"
                                 }
                             ]
                         },
@@ -424,7 +424,7 @@
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "move-67837b8f7e4dd2f47fd485a7f485b7541c4bbe4c5ebefd90b00d58a5c26ed438",
+                                        "geometry": "move-912df3215a54b2f92f19ecba3aafeb8a6694682b924421d15fd169a693bf9c7e",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -451,7 +451,7 @@
                                 {
                                     "name": "Shape 2",
                                     "ioValue": {
-                                        "geometry": "move-392f4f5c3f065b058b830ff54dedd2485587e6b2f9f5ec2ac0f52ba02c9e423d",
+                                        "geometry": "move-b3597af091642c4476f66bebcd0a74eaafba5ba51e73b682664940f9532e1e39",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -563,7 +563,7 @@
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "rotate-1cf9a53bdc124afbc8c1963d100808c6437b23f5bc9b6cae27a83ac8c99e1963",
+                                        "geometry": "rotate-bd1a73cc0a3567de261758e7a43030af1522913471310a35faa4970e2b22d3b6",
                                         "tags": [],
                                         "bom": [],
                                         "plane": {
@@ -590,7 +590,7 @@
                                 {
                                     "name": "Shape 2",
                                     "ioValue": {
-                                        "geometry": "rotate-55e66ce6741fc3df83f12e5b9b2b97e3c154f42c8b2bed2db1e706ee0732a027",
+                                        "geometry": "rotate-173884e1a5b82c410e87aa44fec9324d037fa5fae2b1ceab9e362b5e5c60f508",
                                         "tags": [],
                                         "bom": [],
                                         "plane": {
@@ -830,8 +830,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MainBody",
-                    "x": 0.11896838602329451,
-                    "y": 0.26639344262295084,
+                    "x": 0.10898502495840266,
+                    "y": 0.2540983606557377,
                     "uniqueID": "92d4f048-d47d-40de-80e7-d0384a692795",
                     "ioValues": [],
                     "topLevel": false,
@@ -872,8 +872,8 @@
                             "ioValues": [
                                 {
                                     "name": "height",
-                                    "ioValue": 30,
-                                    "currentEquation": "30"
+                                    "ioValue": 20,
+                                    "currentEquation": "20"
                                 }
                             ]
                         },
@@ -887,14 +887,14 @@
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "cut-d2cfae1d6ca4141d96a5f969b49ffcf9fae268445967d00c0c136a866277cb8d",
+                                        "geometry": "cut-e9b7576d9ce545495782565fd381de1bf60444c216abe0da783b2b1a6ce23390",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
                                             "origin": [
                                                 0,
                                                 0,
-                                                30
+                                                20
                                             ],
                                             "xDir": [
                                                 1,
@@ -914,7 +914,7 @@
                                 {
                                     "name": "Shape 2",
                                     "ioValue": {
-                                        "geometry": "extrude-5abed5dd67670506e27846c81a4a7eae1f9d4ff95226140683c7e509b7aa315d",
+                                        "geometry": "extrude-9ecd2b3421836657704a29c919578971ad2a672afaf0dfd26aff284725a3206e",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -1014,8 +1014,8 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 30,
-                                            "currentEquation": "30"
+                                            "ioValue": 20,
+                                            "currentEquation": "20"
                                         }
                                     ]
                                 },
@@ -1052,16 +1052,16 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 41,
-                                            "currentEquation": "41"
+                                            "ioValue": 31,
+                                            "currentEquation": "31"
                                         }
                                     ]
                                 },
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.625943396226415,
-                                    "y": 0.598019801980198,
+                                    "x": 0.6264559068219634,
+                                    "y": 0.5922131147540984,
                                     "uniqueID": "3bf34879-1769-497f-a3d6-ca4c7634343c",
                                     "ioValues": []
                                 },
@@ -1098,8 +1098,8 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 30,
-                                            "currentEquation": "30"
+                                            "ioValue": 20,
+                                            "currentEquation": "20"
                                         }
                                     ]
                                 },
@@ -1120,7 +1120,7 @@
                                                     "origin": [
                                                         0,
                                                         0,
-                                                        41
+                                                        31
                                                     ],
                                                     "xDir": [
                                                         1,
@@ -1147,7 +1147,7 @@
                                                     "origin": [
                                                         0,
                                                         0,
-                                                        30
+                                                        20
                                                     ],
                                                     "xDir": [
                                                         1,
@@ -1284,8 +1284,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5207986688851913,
-                    "y": 0.5040983606557378,
+                    "x": 0.5499168053244592,
+                    "y": 0.32377049180327866,
                     "uniqueID": "2d9ccc93-3008-4134-a04f-619ae1368b42",
                     "ioValues": [
                         {
