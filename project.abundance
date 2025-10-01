@@ -823,8 +823,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "MainBody",
-                    "x": 0.11813643926788686,
-                    "y": 0.27049180327868855,
+                    "x": 0.11896838602329451,
+                    "y": 0.26639344262295084,
                     "uniqueID": "92d4f048-d47d-40de-80e7-d0384a692795",
                     "ioValues": [],
                     "topLevel": false,
@@ -873,14 +873,14 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.5840266222961731,
+                            "x": 0.5798668885191347,
                             "y": 0.4426229508196722,
                             "uniqueID": "190e766b-7c07-4edf-8a73-7ec8313c49bc",
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "cut-a6eff6153de79f237951fc73d7001c6de0a1f20ab96a4967cb9c0867ae73150f",
+                                        "geometry": "cut-469a031e8f6f2ffc5608623d4b73134694dab913db8f71240cbbb4db15663549",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -1052,20 +1052,6 @@
                                     "y": 0.5,
                                     "uniqueID": "a14d6f4d-494d-4767-adcb-f2ff21dab0f1",
                                     "ioValues": []
-                                },
-                                {
-                                    "atomType": "Circle",
-                                    "name": "Circle",
-                                    "x": 0.09482001755926252,
-                                    "y": 0.34297520661157027,
-                                    "uniqueID": "47be0a0e-f21a-4242-b122-4c2cda45387f",
-                                    "ioValues": [
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 20,
-                                            "currentEquation": null
-                                        }
-                                    ]
                                 },
                                 {
                                     "atomType": "Extrude",
@@ -1256,15 +1242,28 @@
                                         }
                                     ],
                                     "closedSelection": 0
+                                },
+                                {
+                                    "atomType": "RegularPolygon",
+                                    "name": "RegularPolygon",
+                                    "x": 0.10316139767054909,
+                                    "y": 0.31557377049180324,
+                                    "uniqueID": "bcb7cce2-0ab1-4089-82aa-308f9b70e0eb",
+                                    "ioValues": [
+                                        {
+                                            "name": "number of sides",
+                                            "ioValue": 6,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 19,
+                                            "currentEquation": "19"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap1ID": "47be0a0e-f21a-4242-b122-4c2cda45387f",
-                                    "ap2ID": "f29787b1-f274-488e-8138-8bdb73e301e4"
-                                },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry1",
@@ -1312,6 +1311,12 @@
                                     "ap2Name": "geometry2",
                                     "ap1ID": "81002025-6f7e-4cb0-b6d7-eaac123960e8",
                                     "ap2ID": "3bf34879-1769-497f-a3d6-ca4c7634343c"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap1ID": "bcb7cce2-0ab1-4089-82aa-308f9b70e0eb",
+                                    "ap2ID": "f29787b1-f274-488e-8138-8bdb73e301e4"
                                 }
                             ],
                             "fileTypeVersion": 1,
