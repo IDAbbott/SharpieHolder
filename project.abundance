@@ -111,8 +111,8 @@
                 {
                     "atomType": "Export",
                     "name": "Export",
-                    "x": 0.7462562396006656,
-                    "y": 0.15368852459016394,
+                    "x": 0.7495840266222962,
+                    "y": 0.14959016393442623,
                     "uniqueID": "3e301d5b-320a-496d-9cf6-3c9005c74335",
                     "ioValues": [
                         {
@@ -205,78 +205,7 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": {
-                                "geometry": [
-                                    {
-                                        "geometry": "move-96eba42b0eba1609a6569a62631d26780f5683313d54c53bbcc8c61ad135c57c",
-                                        "dimension": "3D",
-                                        "tags": [],
-                                        "plane": {
-                                            "origin": [
-                                                0,
-                                                0,
-                                                5
-                                            ],
-                                            "xDir": [
-                                                1,
-                                                0,
-                                                0
-                                            ],
-                                            "normal": [
-                                                0,
-                                                0,
-                                                1
-                                            ]
-                                        },
-                                        "color": "#aad7f2",
-                                        "bom": []
-                                    },
-                                    {
-                                        "geometry": "move-ef9b1ede3891f586c2e76206644ddbeccecf0b935e26955f532951fe8cf8a5fa",
-                                        "dimension": "3D",
-                                        "tags": [],
-                                        "plane": {
-                                            "origin": [
-                                                0,
-                                                0,
-                                                0
-                                            ],
-                                            "xDir": [
-                                                1,
-                                                0,
-                                                0
-                                            ],
-                                            "normal": [
-                                                0,
-                                                0,
-                                                1
-                                            ]
-                                        },
-                                        "color": "#aad7f2",
-                                        "bom": []
-                                    }
-                                ],
-                                "plane": {
-                                    "origin": [
-                                        0,
-                                        0,
-                                        0
-                                    ],
-                                    "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                    ],
-                                    "normal": [
-                                        0,
-                                        0,
-                                        1
-                                    ]
-                                },
-                                "color": "#aad7f2",
-                                "tags": [],
-                                "bom": []
-                            }
+                            "ioValue": null
                         },
                         {
                             "name": "Shape 2",
@@ -338,8 +267,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "NegSpaceMain",
-                    "x": 0.09068219633943428,
-                    "y": 0.41188524590163933,
+                    "x": 0.08985024958402663,
+                    "y": 0.4077868852459016,
                     "uniqueID": "3ec29a20-366b-48fa-959e-100db0415e58",
                     "ioValues": [],
                     "topLevel": false,
@@ -443,7 +372,7 @@
                                     "ioValue": {
                                         "geometry": [
                                             {
-                                                "geometry": "move-b637afdca33599362282650da17aa82a7581ad91fb84e218beec9a6ab0958e6e",
+                                                "geometry": "move-530d8e7d6d82dcdb0c5f463546ccdf02cebb40813e8654b76a6665edbd5a38d7",
                                                 "tags": [],
                                                 "bom": [],
                                                 "plane": {
@@ -467,7 +396,7 @@
                                                 "dimension": "3D"
                                             },
                                             {
-                                                "geometry": "move-4cb2a9ac0d550802f9fdb2013637131ea07b812955b31329e34c9dc5bcaf0b88",
+                                                "geometry": "move-5f371182566503c56b5690301b0eb669b55ca2ddf3f516a7b95a6c0aabb09e8e",
                                                 "tags": [],
                                                 "bom": [],
                                                 "plane": {
@@ -628,8 +557,8 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 11,
-                                            "currentEquation": null
+                                            "ioValue": 13,
+                                            "currentEquation": "13"
                                         },
                                         {
                                             "name": "zDist",
@@ -660,8 +589,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.30948419301164726,
-                                    "y": 0.2028688524590164,
+                                    "x": 0.3793677204658902,
+                                    "y": 0.1844262295081967,
                                     "uniqueID": "2caf3190-31a9-4ab5-ad66-f542040c521f",
                                     "ioValues": [
                                         {
@@ -671,8 +600,8 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 11,
-                                            "currentEquation": null
+                                            "ioValue": 13,
+                                            "currentEquation": "13"
                                         },
                                         {
                                             "name": "zDist",
@@ -705,7 +634,7 @@
                                         {
                                             "name": "Shape 1",
                                             "ioValue": {
-                                                "geometry": "move-912df3215a54b2f92f19ecba3aafeb8a6694682b924421d15fd169a693bf9c7e",
+                                                "geometry": "move-a10f5ec76e4467a28e39e0f6d448e93b9be15c958413bcfdfdc1b0b6ce2e5465",
                                                 "dimension": "3D",
                                                 "tags": [],
                                                 "plane": {
@@ -732,7 +661,7 @@
                                         {
                                             "name": "Shape 2",
                                             "ioValue": {
-                                                "geometry": "move-b3597af091642c4476f66bebcd0a74eaafba5ba51e73b682664940f9532e1e39",
+                                                "geometry": "move-1ac5897c8bb0a369619b2535c096f0d425dd40629a1f32f81d162d4571f373b3",
                                                 "dimension": "3D",
                                                 "tags": [],
                                                 "plane": {
@@ -759,7 +688,7 @@
                                         {
                                             "name": "Shape 3",
                                             "ioValue": {
-                                                "geometry": "move-91e9110a828b4391b498220b1d3089bc05c930da953f6b531f957145975a21cd",
+                                                "geometry": "move-a6f60c3f357ef78ec2aeac073ee8c0f4d71be6fa5f159409de92788c48547efc",
                                                 "dimension": "3D",
                                                 "tags": [],
                                                 "plane": {
@@ -876,8 +805,8 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 11,
-                                            "currentEquation": null
+                                            "ioValue": 13,
+                                            "currentEquation": "13"
                                         },
                                         {
                                             "name": "zDist",
@@ -896,7 +825,7 @@
                                         {
                                             "name": "Shape 1",
                                             "ioValue": {
-                                                "geometry": "rotate-838db440225534674e7cef49ee1066e6f774a45e649eea4da9c12e58ac35e3a3",
+                                                "geometry": "rotate-b5e9159cc3d2f0f589399135f105a384965dd8708bb0e02ed8976023843331d6",
                                                 "tags": [],
                                                 "bom": [],
                                                 "plane": {
@@ -923,7 +852,7 @@
                                         {
                                             "name": "Shape 2",
                                             "ioValue": {
-                                                "geometry": "rotate-9eb6eaeff1c4dc295fee1dc8e53fdecfeb43c12c327c57ad4569273eadd0cdda",
+                                                "geometry": "rotate-e25f81db679034943814e429fc78f270cba51ff08a1dc4b98743821ea71256e7",
                                                 "tags": [],
                                                 "bom": [],
                                                 "plane": {
@@ -972,6 +901,30 @@
                                             "currentEquation": "-13"
                                         }
                                     ]
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.3113144758735441,
+                                    "y": 0.22336065573770492,
+                                    "uniqueID": "f3db1e01-c2c9-4246-9fba-79e51623bf14",
+                                    "ioValues": [
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": 0,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 0,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": 30,
+                                            "currentEquation": "30"
+                                        }
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -1009,7 +962,7 @@
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap1ID": "3599d84f-7912-4e0c-9aa4-30d1045d90ca",
-                                    "ap2ID": "2caf3190-31a9-4ab5-ad66-f542040c521f"
+                                    "ap2ID": "f3db1e01-c2c9-4246-9fba-79e51623bf14"
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1064,6 +1017,12 @@
                                     "ap2Name": "number or geometry",
                                     "ap1ID": "311d3fc1-64e2-4bbf-a619-379e457f73f0",
                                     "ap2ID": "cb96c186-e137-4a2d-93f8-c3825dca3c1a"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap1ID": "f3db1e01-c2c9-4246-9fba-79e51623bf14",
+                                    "ap2ID": "2caf3190-31a9-4ab5-ad66-f542040c521f"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -1270,13 +1229,13 @@
                             "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.5798668885191347,
-                            "y": 0.4426229508196722,
+                            "y": 0.4405737704918033,
                             "uniqueID": "190e766b-7c07-4edf-8a73-7ec8313c49bc",
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
                                     "ioValue": {
-                                        "geometry": "cut-30c80773240aee137d2e64a52d51e2fde94dd8401fd7a0fb23eabc4b0dda8001",
+                                        "geometry": "cut-24cb7afa8955486d7c5296f0f8249c96108b317672ea28deffb0c1fa3a9fba0c",
                                         "dimension": "3D",
                                         "tags": [],
                                         "plane": {
@@ -1356,8 +1315,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "UpperBody",
-                            "x": 0.2612312811980033,
-                            "y": 0.27049180327868855,
+                            "x": 0.26039933444259566,
+                            "y": 0.24385245901639346,
                             "uniqueID": "2515457b-51ea-4273-bfdc-a86ea6ddaa63",
                             "ioValues": [],
                             "topLevel": false,
@@ -1563,14 +1522,14 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.1480865224625624,
-                                    "y": 0.3442622950819672,
+                                    "x": 0.1497504159733777,
+                                    "y": 0.3360655737704918,
                                     "uniqueID": "04843cde-5b9e-49cf-8ac0-7da8317430ab",
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 30,
-                                            "currentEquation": null
+                                            "ioValue": 32,
+                                            "currentEquation": "32"
                                         }
                                     ]
                                 }
