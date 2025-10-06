@@ -102,8 +102,8 @@
         {
           "atomType": "Export",
           "name": "Export",
-          "x": 0.7537735849056604,
-          "y": 0.1386138613861386,
+          "x": 0.7523584905660377,
+          "y": 0.16435643564356436,
           "uniqueID": "3e301d5b-320a-496d-9cf6-3c9005c74335",
           "ioValues": [
             {
@@ -1621,8 +1621,8 @@
         {
           "atomType": "Molecule",
           "name": "Slide",
-          "x": 0.0940099833610649,
-          "y": 0.5737704918032787,
+          "x": 0.09386792452830188,
+          "y": 0.5821782178217821,
           "uniqueID": "20630ac6-7ca1-4f93-8d92-3c786abae6ed",
           "ioValues": [],
           "topLevel": false,
@@ -1739,70 +1739,6 @@
                   "ioValue": 16
                 }
               ]
-            },
-            {
-              "atomType": "Fusion",
-              "name": "Fusion",
-              "x": 0.46933962264150947,
-              "y": 0.36237623762376237,
-              "uniqueID": "ddd4198b-4631-4f26-9494-b2f640ec59e5",
-              "ioValues": [
-                {
-                  "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "extrude-898aa4ea7c43b38eded7a31ea4f9e6644c782cb45258b3b7713a2f53c9973eba",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
-                },
-                {
-                  "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "move-f1b92224e6656337ab1533421b676fa87ce72c3d18b6f1e4c13db6ca808cc2d5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
-                }
-              ],
-              "unionType": "Fusion"
             },
             {
               "atomType": "Circle",
@@ -2576,6 +2512,14 @@
               ],
               "fileTypeVersion": 1,
               "compiledBom": []
+            },
+            {
+              "atomType": "Difference",
+              "name": "Difference",
+              "x": 0.3957547169811321,
+              "y": 0.20594059405940593,
+              "uniqueID": "ed55ebf5-ea61-424d-91f4-14e1496b2899",
+              "ioValues": []
             }
           ],
           "allConnectors": [
@@ -2599,27 +2543,21 @@
             },
             {
               "ap1Name": "geometry",
-              "ap2Name": "Shape 2",
+              "ap2Name": "geometry1",
               "ap1ID": "06a95ff5-6688-468f-8dc2-cc8bc86eec83",
-              "ap2ID": "ddd4198b-4631-4f26-9494-b2f640ec59e5"
+              "ap2ID": "ed55ebf5-ea61-424d-91f4-14e1496b2899"
             },
             {
               "ap1Name": "geometry",
-              "ap2Name": "Shape 3",
+              "ap2Name": "geometry2",
               "ap1ID": "2975fc3a-7626-44a9-b414-109d92d615b0",
-              "ap2ID": "ddd4198b-4631-4f26-9494-b2f640ec59e5"
+              "ap2ID": "ed55ebf5-ea61-424d-91f4-14e1496b2899"
             },
             {
               "ap1Name": "geometry",
               "ap2Name": "geometry",
               "ap1ID": "02b30443-c8a1-40f3-a0a8-f3c1bd0afb08",
               "ap2ID": "efa0c89f-3e07-46a3-9505-25bfce824f22"
-            },
-            {
-              "ap1Name": "geometry",
-              "ap2Name": "geometry1",
-              "ap1ID": "ddd4198b-4631-4f26-9494-b2f640ec59e5",
-              "ap2ID": "89d1c2e0-9812-4622-a08c-e0eb53e1cc2d"
             },
             {
               "ap1Name": "geometry",
