@@ -255,7 +255,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-1c826197fd90592fd262cfed4c6a2ea6f8b667cfa4cabc34c8e827a861ee4b95",
+                "geometry": "move-d3d6917e3d8ce77c144e69bcba9e9c920f258fecf58cdc7e6f551aea3539bd58",
                 "tags": [],
                 "bom": [],
                 "plane": {
