@@ -1648,8 +1648,8 @@
                 },
                 {
                   "name": "diameter",
-                  "ioValue": 19.5,
-                  "currentEquation": "19.5"
+                  "ioValue": 19,
+                  "currentEquation": "19.0"
                 }
               ]
             },
@@ -1675,8 +1675,8 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 37,
-                  "currentEquation": "37"
+                  "ioValue": 39,
+                  "currentEquation": "39"
                 }
               ]
             },
@@ -1881,8 +1881,8 @@
             {
               "atomType": "Difference",
               "name": "Difference",
-              "x": 0.658273381294964,
-              "y": 0.5535307517084282,
+              "x": 0.6546762589928058,
+              "y": 0.5444191343963554,
               "uniqueID": "89d1c2e0-9812-4622-a08c-e0eb53e1cc2d",
               "ioValues": []
             },
@@ -2057,7 +2057,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "cut-ad0acde2e1ed5930fb6d7c7d2113d0f54a2b6c4ffaa4f4b95032ffd6aa5cacca",
+                    "geometry": "cut-da3549fc7819d031dc8bfb367c5b6065359ba88bc5057e1fae70f7aa703d83db",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -2114,25 +2114,27 @@
             {
               "atomType": "Rectangle",
               "name": "Rectangle",
-              "x": 0.07924528301886792,
-              "y": 0.39207920792079204,
+              "x": 0.0764388489208633,
+              "y": 0.40774487471526194,
               "uniqueID": "4daa633d-0dc9-4a76-986d-f04fe6e430de",
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 19.3
+                  "ioValue": 19.5,
+                  "currentEquation": "19.5"
                 },
                 {
                   "name": "y length",
-                  "ioValue": 35
+                  "ioValue": 33,
+                  "currentEquation": "33"
                 }
               ]
             },
             {
               "atomType": "Extrude",
               "name": "Extrude",
-              "x": 0.1632075471698113,
-              "y": 0.3861386138613861,
+              "x": 0.16546762589928057,
+              "y": 0.3917995444191344,
               "uniqueID": "1115ef09-c370-4e89-b081-e6f210b8ac1d",
               "ioValues": [
                 {
@@ -2172,7 +2174,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "extrude-fc35d75f9dde4e207be9eb20d0f8e5f818721c9eb6a7d1504363bf16572d103c",
+                    "geometry": "extrude-5abed5dd67670506e27846c81a4a7eae1f9d4ff95226140683c7e509b7aa315d",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -2199,7 +2201,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-d75feb43a731d85b40ebaa7e5727199676352aae4feaa5ce1201e23c7d5db1f0",
+                    "geometry": "move-47c0abe9244a72a78566b58d9b792196b06ae6511b199fb35f31415c5a749415",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
