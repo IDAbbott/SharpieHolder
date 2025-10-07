@@ -173,8 +173,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.6681654676258992,
-          "y": 0.5876993166287017,
+          "x": 0.6618705035971223,
+          "y": 0.5671981776765376,
           "uniqueID": "155eefb6-76f3-44da-955d-89335f103855",
           "ioValues": [
             {
@@ -182,9 +182,8 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-2fe5b253135ea0018c8e9d8321149e30f33a299fbd87a22e66f1e7efd72fd28f",
+                    "geometry": "move-cf795f48ef82f8cc800df70342430eed251e950cb512f13b09b71c308868d32a",
                     "dimension": "3D",
-                    "tags": [],
                     "plane": {
                       "origin": [
                         0,
@@ -203,6 +202,7 @@
                       ]
                     },
                     "color": "#aad7f2",
+                    "tags": [],
                     "bom": []
                   },
                   {
@@ -255,7 +255,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-2314c4d448fb551853dfc86d427c2c92076d8846fe8be3c0d120fe6d5bcc4cbb",
+                "geometry": "move-32d318b7c81a9cee6b29597837b8953ec88c3f8a947ddaf1c4dad7748a56a5aa",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -556,8 +556,7 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 35,
-                  "currentEquation": "35"
+                  "ioValue": 35
                 }
               ]
             },
@@ -1187,8 +1186,8 @@
         {
           "atomType": "Molecule",
           "name": "MainBody",
-          "x": 0.10981697171381032,
-          "y": 0.2377049180327869,
+          "x": 0.11151079136690649,
+          "y": 0.2437357630979499,
           "uniqueID": "92d4f048-d47d-40de-80e7-d0384a692795",
           "ioValues": [],
           "topLevel": false,
@@ -1234,16 +1233,15 @@
             {
               "atomType": "Assembly",
               "name": "Assembly",
-              "x": 0.5798668885191347,
-              "y": 0.4405737704918033,
+              "x": 0.5809352517985612,
+              "y": 0.4328018223234624,
               "uniqueID": "190e766b-7c07-4edf-8a73-7ec8313c49bc",
               "ioValues": [
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "cut-4da3aa17bceab3518c078f36e60ed894e69d5bb5d6bd90dceea0fc062daafe25",
+                    "geometry": "cut-1663168b01ddf73dc1625c5470be5007e4fa02b55f0bb9a46f5649e0a1457d49",
                     "dimension": "3D",
-                    "tags": [],
                     "plane": {
                       "origin": [
                         0,
@@ -1262,6 +1260,7 @@
                       ]
                     },
                     "color": "#aad7f2",
+                    "tags": [],
                     "bom": []
                   }
                 },
@@ -1511,16 +1510,21 @@
                   "closedSelection": 0
                 },
                 {
-                  "atomType": "Circle",
-                  "name": "Circle",
-                  "x": 0.15224625623960067,
-                  "y": 0.3442622950819672,
-                  "uniqueID": "04843cde-5b9e-49cf-8ac0-7da8317430ab",
+                  "atomType": "Rectangle",
+                  "name": "Rectangle",
+                  "x": 0.13489208633093525,
+                  "y": 0.33940774487471526,
+                  "uniqueID": "ce3c2dc1-a7e7-44c6-a1c9-a8366d49250b",
                   "ioValues": [
                     {
-                      "name": "diameter",
-                      "ioValue": 39,
-                      "currentEquation": "39"
+                      "name": "x length",
+                      "ioValue": 19,
+                      "currentEquation": "19"
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 32.5,
+                      "currentEquation": "32.5"
                     }
                   ]
                 }
@@ -1577,7 +1581,7 @@
                 {
                   "ap1Name": "geometry",
                   "ap2Name": "geometry",
-                  "ap1ID": "04843cde-5b9e-49cf-8ac0-7da8317430ab",
+                  "ap1ID": "ce3c2dc1-a7e7-44c6-a1c9-a8366d49250b",
                   "ap2ID": "f29787b1-f274-488e-8138-8bdb73e301e4"
                 }
               ],
@@ -1650,8 +1654,7 @@
                 },
                 {
                   "name": "diameter",
-                  "ioValue": 19,
-                  "currentEquation": "19.0"
+                  "ioValue": 19
                 }
               ]
             },
@@ -1677,8 +1680,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 39,
-                  "currentEquation": "39"
+                  "ioValue": 39
                 }
               ]
             },
@@ -1751,8 +1753,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 11.3,
-                  "currentEquation": "11.3"
+                  "ioValue": 11.3
                 }
               ]
             },
@@ -1765,8 +1766,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 12.7,
-                  "currentEquation": "12.7"
+                  "ioValue": 12.7
                 }
               ]
             },
@@ -1898,7 +1898,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "singular-1ae3592f8248c3f879b56afe3f2ce6aad45ba898434796d35c565684397fb3e6",
+                    "geometry": "singular-589ffd3acf522ae81192579f297589e93b0c41f748b224d1b4bb5c857a2f70cb",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -2122,13 +2122,11 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 19.5,
-                  "currentEquation": "19.5"
+                  "ioValue": 19.5
                 },
                 {
                   "name": "y length",
-                  "ioValue": 33,
-                  "currentEquation": "33"
+                  "ioValue": 33
                 }
               ]
             },
